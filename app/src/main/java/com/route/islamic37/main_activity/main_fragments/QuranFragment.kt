@@ -40,8 +40,21 @@ class QuranFragment : Fragment() {
 
                // Open Source
 
+               //Create Local Git Repository
+               // Added local files to git repo
+               // Commit
+               // Connected Local Repository to remote Repoistory
+               // Team Work
+               // 1- Developers work on different branches
+               //   master :- Contains stable version of code
+               //               "Playstore"
+               //   develop:-
 
-     */
+                 Splash ->    Login -> Register -> Home
+
+                Pull
+                // Conflicts -> When 2 push on Same File
+*/
 
     override fun onCreateView(
         inflater: LayoutInflater,
