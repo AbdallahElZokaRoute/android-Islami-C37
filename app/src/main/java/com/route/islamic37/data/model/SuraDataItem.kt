@@ -3,6 +3,8 @@ package com.route.islamic37.data.model
 data class SuraDataItem(
     val name: String? = null,
     val count: Int? = null,
+
+
 )
 
 var ArSuras = listOf(
