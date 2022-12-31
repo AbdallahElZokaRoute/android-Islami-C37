@@ -12,9 +12,23 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
 
-<!--    <style name="bottom_navigation_style" parent="Theme.IslamiC37">-->
-<!--        <item name="backgroundTint"></item>-->
-<!--    </style>-->
+    <style name="bottom_navigation_style" parent="Theme.IslamiC37">
+        <item name="backgroundTint">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="sura_content_style" parent="Theme.IslamiC37">
+        <item name="android:textColor">@color/colorGoldForDark</item>
+
+    </style>
+
+    <style name="toolbar_title" parent="Theme.IslamiC37">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--    <style name="bottom_navigation_style" parent="Theme.IslamiC37">-->
+    <!--        <item name="backgroundTint"></item>-->
+    <!--    </style>-->
 </resources>

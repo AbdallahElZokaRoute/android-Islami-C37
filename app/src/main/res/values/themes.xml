@@ -18,5 +18,14 @@
 
     <style name="bottom_navigation_style" parent="Theme.IslamiC37">
         <item name="backgroundTint">@color/colorGold</item>
+
+    </style>
+
+    <style name="sura_content_style" parent="Theme.IslamiC37">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="toolbar_title" parent="Theme.IslamiC37">
+        <item name="android:textColor">@color/black</item>
     </style>
 </resources>
