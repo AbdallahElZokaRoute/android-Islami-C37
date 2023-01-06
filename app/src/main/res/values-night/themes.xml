@@ -17,4 +17,13 @@
 <!--    <style name="bottom_navigation_style" parent="Theme.IslamiC37">-->
 <!--        <item name="backgroundTint"></item>-->
 <!--    </style>-->
+    <style name="background" parent="Theme.IslamiC37">
+        <item name="android:background">@drawable/dark_bg</item>
+    </style>
+    <style name="sebhaHeadLayout" parent="Theme.IslamiC37">
+        <item name="android:background">@drawable/head_sebha_dark</item>
+    </style>
+    <style name="sebhaBodyLayout" parent="Theme.IslamiC37">
+        <item name="android:background">@drawable/body_sebha_dark</item>
+    </style>
 </resources>
