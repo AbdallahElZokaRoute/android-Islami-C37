@@ -74,15 +74,7 @@ class QuranFragment : Fragment() {
             intent1.putExtra(Constants.EXTRA_SURA_NAME_KEY, suraName)
             startActivity(intent1)
         }
-        quranAdapter.onSuraClickListener = object : OnSuraClickListener {
-            override fun onSuraClick(position: Int, suraName: String) {
-                val intent1 = Intent(requireActivity(), SuraDetailsActivity::class.java)
-                intent1.putExtra(Constants.EXTRA_SURA_POSITION, position)
-                intent1.putExtra(Constants.EXTRA_SURA_NAME_KEY, suraName)
-                startActivity(intent1)
-            }
 
-        }
     }
 
     fun switchModeLogic() {
