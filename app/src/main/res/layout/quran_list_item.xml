@@ -13,6 +13,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@id/suras_content_count"
         app:layout_constraintStart_toStartOf="parent"
+        style="@style/text_style"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:gravity="center"
+        style="@style/text_style"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/suras_name"
