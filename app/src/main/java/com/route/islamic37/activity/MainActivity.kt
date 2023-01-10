@@ -7,8 +7,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.route.islamic37.R
 import com.route.islamic37.activity.main_fragments.QuranFragment
 import com.route.islamic37.activity.main_fragments.RadioFragment
-import com.route.islamic37.activity.main_fragments.TasbeehFragment
-import com.route.islamic37.activity.main_fragments.VersesFragment
+import com.route.islamic37.main_activity.main_fragments.TasbeehFragment
+import com.route.islamic37.main_activity.main_fragments.VersesFragment
 
 class MainActivity : AppCompatActivity() {
 

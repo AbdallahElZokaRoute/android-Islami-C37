@@ -39,6 +39,12 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".hadeth_Details.HadethDetailsActivity"
+            android:exported="true"/>
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
     </application>
 
 </manifest>
