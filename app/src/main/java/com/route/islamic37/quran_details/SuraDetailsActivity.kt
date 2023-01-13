@@ -2,6 +2,7 @@ package com.route.islamic37.quran_details
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -48,6 +49,7 @@ class SuraDetailsActivity : AppCompatActivity() {
 
     fun readFileText() {
         // IO Stream -> Input / Output Stream -> Read From file / write to file
+        Log.e("TAG", "readFileText: This is Additional message", )
         val fileName = "${suraPosition?.plus(1)}.txt"
         val fileContent: String = assets.open(fileName)
             .bufferedReader()
