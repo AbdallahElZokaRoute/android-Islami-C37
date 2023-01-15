@@ -38,7 +38,7 @@ class hadeethDetails : AppCompatActivity() {
 
 
             //get each hadeeth and split each new line , and return a list
-            val hadethName_fromContentArray= hadeethContent!!.get(i).split("ع")
+            val hadethName_fromContentArray= hadeethContent!!.get(i).split("\nع")
 
             //we need only the first line of each hadeeth as it contain the hadeeth name,ex:الحديث الاول  will be in position 0
             //after the next line we will have an array with all of the ahadeth's name
